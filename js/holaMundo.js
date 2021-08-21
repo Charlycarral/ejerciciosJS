@@ -29,3 +29,7 @@ const comision = 17;
 document.write("<br>Constante comision: " + comision);
 
 let luz = true;
+
+let suma = 20;
+console.log(suma++);
+console.log(suma + 1);
