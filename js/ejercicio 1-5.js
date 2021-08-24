@@ -13,3 +13,90 @@
 //console.log(numero1);
 //console.log(numero1 + numero2);
 //document.write("El resultado de la suma es <br>" + (numero1 + numero2));
+
+// Ejercicio numero 6 Practico ejercicios JS
+
+//let numero1 = parseInt(prompt("Ingrese un primer numero"));
+//let numero2 = parseInt(prompt("Ingrese un segundo numero"));
+//
+//if (numero1 > numero2) {
+//  document.write("La variable numero 1 es mayor " + numero1);
+//} else {
+//  document.write("La variable numero 2 es mayor " + numero2);
+//
+
+// Ejercicio numero 7 forma A
+
+//let numero1 = parseInt(prompt("Ingrese un primer numero"));
+//let numero2 = parseInt(prompt("Ingrese un segundo numero"));
+//let numero3 = parseInt(prompt("Ingrese un tercer numero"));
+//
+//if (numero1 > numero2) {
+//  if (numero1 > numero3) {
+//    document.write("El primer valor es el mayor " + numero1);
+//  } else {
+//    document.write("El tercer valor es el mayor " + numero3);
+//  }
+//} else {
+//  if (numero2 > numero3) {
+//    document.write("El segundo valor es el mayor " + numero2);
+//  } else {
+//    document.write("El tercer varlor es el mayor " + numero3);
+//  }
+//}
+
+// Ejercicio numero 7 forma B utiliza y reduce el codigo
+
+//let numero1 = parseInt(prompt("Ingrese un primer numero"));
+//let numero2 = parseInt(prompt("Ingrese un segundo numero"));
+//let numero3 = parseInt(prompt("Ingrese un tercer numero"));
+//
+//if (numero1 > numero2 && numero1 > numero3) {
+//  document.write("El primer valor es el mayor " + numero1);
+//} else {
+//  if (numero2 > numero3) {
+//    document.write("El segundo valor es el mayor " + numero2);
+//  } else {
+//    document.write("El tercer varlor es el mayor " + numero3);
+//  }
+//}
+
+//Ejercicio numero 8
+//
+//let numero1 = parseInt(
+//  prompt("Ingrese un numero para saber si es divisible por dos")
+//);
+//
+//if (numero1 % 2 == 0) {
+//  document.write("El numero " + numero1 + " es divisible por 2");
+//} else {
+//  document.write("El numero " + numero1 + " no es divisible por 2");
+//}
+
+//Ejercicio numero 10
+//
+//let numero1 = parseInt(
+//  prompt("Ingrese un numero para saber si es divisible por 3")
+//);
+//
+//if (numero1 % 3 == 0) {
+//  document.write("El numero " + numero1 + " es divisible por 3");
+//} else {
+//  document.write("El numero " + numero1 + " no es divisible por 3");
+//}
+
+//Ejercicio numero 11
+
+let numero1 = parseInt(
+  prompt("Ingrese un numero")
+);
+
+if (numero1 % 2 == 0 && numero1 % 3 !=) {
+  document.write("El numero " + numero1 + " es divisible por 3");
+} else {
+  document.write("El numero " + numero1 + " no es divisible por 3");
+}
+
+
+
+
