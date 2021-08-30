@@ -86,17 +86,37 @@
 //}
 
 //Ejercicio numero 11
+//
+//let numero1 = parseInt(
+//  prompt("Ingrese un numero")
+//);
+//
+//if (numero1 % 2 == 0 && numero1 % 3 !=) {
+//  document.write("El numero " + numero1 + " es divisible por 3");
+//} else {
+//  document.write("El numero " + numero1 + " no es divisible por 3");
+//}
 
-let numero1 = parseInt(
-  prompt("Ingrese un numero")
-);
+//Ejercicio numero 9
+let frase = prompt("Ingrese una frase");
+// hola mundo
+console.log(frase);
+frase = frase.toLowerCase();
+console.log(frase.length);
 
-if (numero1 % 2 == 0 && numero1 % 3 !=) {
-  document.write("El numero " + numero1 + " es divisible por 3");
-} else {
-  document.write("El numero " + numero1 + " no es divisible por 3");
+// tomar un caracter variable.charAt (indice)
+// preguntar si es vocal
+// si es vocal lo muestro sino no hago nada
+
+for (let vocal = 0; vocal < frase.length; vocal++) {
+  console.log(frase.charAt(vocal));
+  if (
+    frase.charAt(vocal) == "a" ||
+    frase.charAt(vocal) == "e" ||
+    frase.charAt(vocal) == "i" ||
+    frase.charAt(vocal) == "o" ||
+    frase.charAt(vocal) == "u"
+  ) {
+    document.write(frase.charAt(vocal));
+  }
 }
-
-
-
-
