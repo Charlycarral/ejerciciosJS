@@ -71,6 +71,48 @@
 
 //Completar
 
+let arrayDados = [];
+let sumaDados = 0;
+let dadoUno = 0;
+let dadoDos = 0;
+
+let tirarDados = () => {
+  let dadoUno = parseInt(6 * Math.random() + 1);
+  console.log(dadoUno);
+  return dadoUno
+  let dadoDos = parseInt(6 * Math.random() + 1);
+  console.log(dadoDos);
+  return dadoDos
+  return sumaDados
+};
+tirarDados();
+let sumaDados = (dadoUno + dadoDos)
+console.log(sumaDados)
+
+
+
+// for (tirada=0; tirada < 0; tirada++){
+// tirarDados ();
+// if ()
+
+
+// }
+
+
+// for (tirada=0; tirada <= 50; tirada++) {
+//     tirarDados ();
+//     if (sumaDados ==  )
+// }
+
+// for (tirada = 0; tirada <= 50; tirada++);
+// {
+//   let sumaDados = dadoUno + dadoDos;
+
+//   arrayDados.push(sumaDados);
+// }
+
+// console.log(sumaDados);
+
 // Funciones
 
 // 1- Escribir el código de una función a la que se pasa como parámetro un número entero y
